@@ -6,9 +6,14 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     private bool uiVisible = false;
-    private bool notPlaying = true;
-    [SerializeField] GameObject uiObject;
-    [SerializeField] GameObject day;
+    [SerializeField] GameObject uiObject = null;
+    [SerializeField] GameObject day = null;
+    [SerializeField] GameObject night = null;
+    [SerializeField] GameObject evening = null;
+    [SerializeField] GameObject rain = null;
+    [SerializeField] GameObject snow = null;
+    [SerializeField] GameObject clear = null;
+
 
 
     void Start()
@@ -19,7 +24,7 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && notPlaying)
+        if(Input.GetKeyDown(KeyCode.E))
         {
             ToggleUI();
         }
@@ -43,16 +48,25 @@ public class UI : MonoBehaviour
     public void ToRain()
     {
         Debug.Log("Changed Weather to Rain.");
+        rain.SetActive(true);
+        clear.SetActive(false);
+        snow.SetActive(false);
     }
 
     public void ToSnow()
     {
         Debug.Log("Changed Weather to Snow.");
+        rain.SetActive(false);
+        clear.SetActive(false);
+        snow.SetActive(true);
     }
 
     public void ToClear()
     {
         Debug.Log("Changed Weather to Clear.");
+        rain.SetActive(false);
+        clear.SetActive(true);
+        snow.SetActive(false);
     }
 
     //Change Daytime
