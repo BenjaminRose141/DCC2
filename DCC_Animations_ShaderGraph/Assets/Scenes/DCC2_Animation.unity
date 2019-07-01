@@ -5659,9 +5659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiObject: {fileID: 1682554841}
-  day: {fileID: 884359507}
-  night: {fileID: 579036203}
-  evening: {fileID: 646885477}
+  day: {fileID: 100716443}
+  night: {fileID: 646885477}
+  evening: {fileID: 296343646}
   rain: {fileID: 360220671}
   snow: {fileID: 512480766}
   clear: {fileID: 1507070395}

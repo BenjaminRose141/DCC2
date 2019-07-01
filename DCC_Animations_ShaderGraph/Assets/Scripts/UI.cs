@@ -74,16 +74,24 @@ public class UI : MonoBehaviour
     {
         Debug.Log("Changed Daytime to Day.");
         day.SetActive(true);
+        night.SetActive(false);
+        evening.SetActive(false);
     }
 
     public void ToNight()
     {
         Debug.Log("Changed Daytime to Night.");
+        day.SetActive(false);
+        night.SetActive(night);
+        evening.SetActive(false);
     }
 
     public void ToEvening()
     {
         Debug.Log("Changed Daytime to Evening.");
+        day.SetActive(false);
+        night.SetActive(false);
+        evening.SetActive(true);
     }
 
     //Animations
