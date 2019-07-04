@@ -1,0 +1,1160 @@
+fileFormatVersion: 2
+guid: cbe9794a989131e4ab9b28605f40ef8e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: Columns_Back
+    100004: Columns_Front
+    100006: Columns_mid
+    100008: Columns_Sides
+    100010: Columns_small_back
+    100012: Columns_small_front
+    100014: Columns_small_inside
+    100016: Doric_Column_body_mesh
+    100018: Doric_Column_body_mesh 1
+    100020: Doric_Column_body_mesh 10
+    100022: Doric_Column_body_mesh 11
+    100024: Doric_Column_body_mesh 12
+    100026: Doric_Column_body_mesh 13
+    100028: Doric_Column_body_mesh 14
+    100030: Doric_Column_body_mesh 15
+    100032: Doric_Column_body_mesh 16
+    100034: Doric_Column_body_mesh 17
+    100036: Doric_Column_body_mesh 18
+    100038: Doric_Column_body_mesh 19
+    100040: Doric_Column_body_mesh 2
+    100042: Doric_Column_body_mesh 20
+    100044: Doric_Column_body_mesh 21
+    100046: Doric_Column_body_mesh 22
+    100048: Doric_Column_body_mesh 23
+    100050: Doric_Column_body_mesh 24
+    100052: Doric_Column_body_mesh 25
+    100054: Doric_Column_body_mesh 26
+    100056: Doric_Column_body_mesh 27
+    100058: Doric_Column_body_mesh 28
+    100060: Doric_Column_body_mesh 29
+    100062: Doric_Column_body_mesh 3
+    100064: Doric_Column_body_mesh 30
+    100066: Doric_Column_body_mesh 31
+    100068: Doric_Column_body_mesh 32
+    100070: Doric_Column_body_mesh 33
+    100072: Doric_Column_body_mesh 34
+    100074: Doric_Column_body_mesh 35
+    100076: Doric_Column_body_mesh 36
+    100078: Doric_Column_body_mesh 37
+    100080: Doric_Column_body_mesh 4
+    100082: Doric_Column_body_mesh 5
+    100084: Doric_Column_body_mesh 6
+    100086: Doric_Column_body_mesh 7
+    100088: Doric_Column_body_mesh 8
+    100090: Doric_Column_body_mesh 9
+    100092: Doric_Column_Final
+    100094: Doric_Column_Final 1
+    100096: Doric_Column_Final1
+    100098: Doric_Column_Final1 1
+    100100: Doric_Column_Final10
+    100102: Doric_Column_Final11
+    100104: Doric_Column_Final12
+    100106: Doric_Column_Final13
+    100108: Doric_Column_Final14
+    100110: Doric_Column_Final15
+    100112: Doric_Column_Final16
+    100114: Doric_Column_Final17
+    100116: Doric_Column_Final18
+    100118: Doric_Column_Final19
+    100120: Doric_Column_Final19 1
+    100122: Doric_Column_Final2
+    100124: Doric_Column_Final2 1
+    100126: Doric_Column_Final20
+    100128: Doric_Column_Final20 1
+    100130: Doric_Column_Final21
+    100132: Doric_Column_Final21 1
+    100134: Doric_Column_Final22
+    100136: Doric_Column_Final23
+    100138: Doric_Column_Final24
+    100140: Doric_Column_Final25
+    100142: Doric_Column_Final26
+    100144: Doric_Column_Final27
+    100146: Doric_Column_Final28
+    100148: Doric_Column_Final29
+    100150: Doric_Column_Final3
+    100152: Doric_Column_Final3 1
+    100154: Doric_Column_Final30
+    100156: Doric_Column_Final4
+    100158: Doric_Column_Final5
+    100160: Doric_Column_Final6
+    100162: Doric_Column_Final7
+    100164: Doric_Column_Final8
+    100166: Doric_Column_Final9
+    100168: Doric_Column_slab_mesh
+    100170: Doric_Column_slab_mesh 1
+    100172: Doric_Column_slab_mesh 10
+    100174: Doric_Column_slab_mesh 11
+    100176: Doric_Column_slab_mesh 12
+    100178: Doric_Column_slab_mesh 13
+    100180: Doric_Column_slab_mesh 14
+    100182: Doric_Column_slab_mesh 15
+    100184: Doric_Column_slab_mesh 16
+    100186: Doric_Column_slab_mesh 17
+    100188: Doric_Column_slab_mesh 18
+    100190: Doric_Column_slab_mesh 19
+    100192: Doric_Column_slab_mesh 2
+    100194: Doric_Column_slab_mesh 20
+    100196: Doric_Column_slab_mesh 21
+    100198: Doric_Column_slab_mesh 22
+    100200: Doric_Column_slab_mesh 23
+    100202: Doric_Column_slab_mesh 24
+    100204: Doric_Column_slab_mesh 25
+    100206: Doric_Column_slab_mesh 26
+    100208: Doric_Column_slab_mesh 27
+    100210: Doric_Column_slab_mesh 28
+    100212: Doric_Column_slab_mesh 29
+    100214: Doric_Column_slab_mesh 3
+    100216: Doric_Column_slab_mesh 30
+    100218: Doric_Column_slab_mesh 31
+    100220: Doric_Column_slab_mesh 32
+    100222: Doric_Column_slab_mesh 33
+    100224: Doric_Column_slab_mesh 34
+    100226: Doric_Column_slab_mesh 35
+    100228: Doric_Column_slab_mesh 36
+    100230: Doric_Column_slab_mesh 37
+    100232: Doric_Column_slab_mesh 4
+    100234: Doric_Column_slab_mesh 5
+    100236: Doric_Column_slab_mesh 6
+    100238: Doric_Column_slab_mesh 7
+    100240: Doric_Column_slab_mesh 8
+    100242: Doric_Column_slab_mesh 9
+    100244: Doric_Temple_Base
+    100246: Doric_Temple_Build
+    100248: Doric_Temple_Roof
+    100250: Doric_Temple_Triglyphs
+    100252: Doric_Temple_Walls
+    100254: Extension_mesh
+    100256: //RootNode
+    100258: Fire_Holder_Ground_Color_ID
+    100260: Fire_Holder_Ground_Color_ID1
+    100262: Fire_Holder_Ground_Color_ID10
+    100264: Fire_Holder_Ground_Color_ID11
+    100266: Fire_Holder_Ground_Color_ID12
+    100268: Fire_Holder_Ground_Color_ID13
+    100270: Fire_Holder_Ground_Color_ID2
+    100272: Fire_Holder_Ground_Color_ID3
+    100274: Fire_Holder_Ground_Color_ID4
+    100276: Fire_Holder_Ground_Color_ID5
+    100278: Fire_Holder_Ground_Color_ID6
+    100280: Fire_Holder_Ground_Color_ID7
+    100282: Fire_Holder_Ground_Color_ID8
+    100284: Fire_Holder_Ground_Color_ID9
+    100286: Fire_holder_stand
+    100288: Fire_Holder_Stand_Color_ID
+    100290: Fire_Holder_Stand_Color_ID1
+    100292: Fire_Holder_Stand_Color_ID2
+    100294: Fire_Holder_Stand_Color_ID3
+    100296: Fire_Holder_Stand_Color_ID4
+    100298: Fire_Holder_Stand_Color_ID5
+    100300: Fire_Holder_Stand_Color_ID6
+    100302: Fire_Holder_Stand_Color_ID7
+    100304: Fire_Holder_Stand_Color_ID8
+    100306: Fire_Holder_Stand_Color_ID9
+    100308: Fireholders
+    100310: Greek_Helmet_Color_ID1
+    100312: Greek_Helmet_Color_ID2
+    100314: Greek_Helmet_Color_ID3
+    100316: Greek_Shield_colorI_D_5
+    100318: Greek_Shield_colorI_D_6
+    100320: group1
+    100322: Helmets
+    100324: Hoplite_Sword_Color_ID
+    100326: Hoplite_Sword_Color_ID1
+    100328: Hoplite_Sword_Color_ID2
+    100330: Hoplite_Sword_Color_ID3
+    100332: imagePlane1
+    100334: imagePlane2
+    100336: imagePlane3
+    100338: left
+    100340: mid_Roof
+    100342: Objects
+    100344: Roof_Base
+    100346: Roof_Ornament
+    100348: Roof_Ring_1
+    100350: Roof_Ring_2
+    100352: Roof_Ring_3
+    100354: Roof_Ring_4
+    100356: Roundtable
+    100358: Shields
+    100360: Spear_Color_ID
+    100362: Spear_Color_ID1
+    100364: Spears
+    100366: Stairs
+    100368: Stairs_Back_mesh
+    100370: Stairs_front_high_mesh
+    100372: Stairs_front_low_mesh
+    100374: Stairs_Left_mesh
+    100376: Stairs_Right_mesh
+    100378: Stairs_Sides
+    100380: Swords
+    100382: Temple_Base_mesh
+    100384: Torch_Color_ID
+    100386: Torch_Color_ID1
+    100388: Torch_Color_ID2
+    100390: Torch_Color_ID3
+    100392: Torches
+    100394: turnTableCamera1
+    100396: Upper_Base_Mesh
+    100398: Vase_1
+    100400: Vase_1_Color_ID
+    100402: Vase_1_Color_ID1
+    100404: Vase_1_Color_ID2
+    100406: Vase_2
+    100408: Vase_2_Color_ID
+    100410: Vase_2_Color_ID1
+    400000: back
+    400002: Columns_Back
+    400004: Columns_Front
+    400006: Columns_mid
+    400008: Columns_Sides
+    400010: Columns_small_back
+    400012: Columns_small_front
+    400014: Columns_small_inside
+    400016: Doric_Column_body_mesh
+    400018: Doric_Column_body_mesh 1
+    400020: Doric_Column_body_mesh 10
+    400022: Doric_Column_body_mesh 11
+    400024: Doric_Column_body_mesh 12
+    400026: Doric_Column_body_mesh 13
+    400028: Doric_Column_body_mesh 14
+    400030: Doric_Column_body_mesh 15
+    400032: Doric_Column_body_mesh 16
+    400034: Doric_Column_body_mesh 17
+    400036: Doric_Column_body_mesh 18
+    400038: Doric_Column_body_mesh 19
+    400040: Doric_Column_body_mesh 2
+    400042: Doric_Column_body_mesh 20
+    400044: Doric_Column_body_mesh 21
+    400046: Doric_Column_body_mesh 22
+    400048: Doric_Column_body_mesh 23
+    400050: Doric_Column_body_mesh 24
+    400052: Doric_Column_body_mesh 25
+    400054: Doric_Column_body_mesh 26
+    400056: Doric_Column_body_mesh 27
+    400058: Doric_Column_body_mesh 28
+    400060: Doric_Column_body_mesh 29
+    400062: Doric_Column_body_mesh 3
+    400064: Doric_Column_body_mesh 30
+    400066: Doric_Column_body_mesh 31
+    400068: Doric_Column_body_mesh 32
+    400070: Doric_Column_body_mesh 33
+    400072: Doric_Column_body_mesh 34
+    400074: Doric_Column_body_mesh 35
+    400076: Doric_Column_body_mesh 36
+    400078: Doric_Column_body_mesh 37
+    400080: Doric_Column_body_mesh 4
+    400082: Doric_Column_body_mesh 5
+    400084: Doric_Column_body_mesh 6
+    400086: Doric_Column_body_mesh 7
+    400088: Doric_Column_body_mesh 8
+    400090: Doric_Column_body_mesh 9
+    400092: Doric_Column_Final
+    400094: Doric_Column_Final 1
+    400096: Doric_Column_Final1
+    400098: Doric_Column_Final1 1
+    400100: Doric_Column_Final10
+    400102: Doric_Column_Final11
+    400104: Doric_Column_Final12
+    400106: Doric_Column_Final13
+    400108: Doric_Column_Final14
+    400110: Doric_Column_Final15
+    400112: Doric_Column_Final16
+    400114: Doric_Column_Final17
+    400116: Doric_Column_Final18
+    400118: Doric_Column_Final19
+    400120: Doric_Column_Final19 1
+    400122: Doric_Column_Final2
+    400124: Doric_Column_Final2 1
+    400126: Doric_Column_Final20
+    400128: Doric_Column_Final20 1
+    400130: Doric_Column_Final21
+    400132: Doric_Column_Final21 1
+    400134: Doric_Column_Final22
+    400136: Doric_Column_Final23
+    400138: Doric_Column_Final24
+    400140: Doric_Column_Final25
+    400142: Doric_Column_Final26
+    400144: Doric_Column_Final27
+    400146: Doric_Column_Final28
+    400148: Doric_Column_Final29
+    400150: Doric_Column_Final3
+    400152: Doric_Column_Final3 1
+    400154: Doric_Column_Final30
+    400156: Doric_Column_Final4
+    400158: Doric_Column_Final5
+    400160: Doric_Column_Final6
+    400162: Doric_Column_Final7
+    400164: Doric_Column_Final8
+    400166: Doric_Column_Final9
+    400168: Doric_Column_slab_mesh
+    400170: Doric_Column_slab_mesh 1
+    400172: Doric_Column_slab_mesh 10
+    400174: Doric_Column_slab_mesh 11
+    400176: Doric_Column_slab_mesh 12
+    400178: Doric_Column_slab_mesh 13
+    400180: Doric_Column_slab_mesh 14
+    400182: Doric_Column_slab_mesh 15
+    400184: Doric_Column_slab_mesh 16
+    400186: Doric_Column_slab_mesh 17
+    400188: Doric_Column_slab_mesh 18
+    400190: Doric_Column_slab_mesh 19
+    400192: Doric_Column_slab_mesh 2
+    400194: Doric_Column_slab_mesh 20
+    400196: Doric_Column_slab_mesh 21
+    400198: Doric_Column_slab_mesh 22
+    400200: Doric_Column_slab_mesh 23
+    400202: Doric_Column_slab_mesh 24
+    400204: Doric_Column_slab_mesh 25
+    400206: Doric_Column_slab_mesh 26
+    400208: Doric_Column_slab_mesh 27
+    400210: Doric_Column_slab_mesh 28
+    400212: Doric_Column_slab_mesh 29
+    400214: Doric_Column_slab_mesh 3
+    400216: Doric_Column_slab_mesh 30
+    400218: Doric_Column_slab_mesh 31
+    400220: Doric_Column_slab_mesh 32
+    400222: Doric_Column_slab_mesh 33
+    400224: Doric_Column_slab_mesh 34
+    400226: Doric_Column_slab_mesh 35
+    400228: Doric_Column_slab_mesh 36
+    400230: Doric_Column_slab_mesh 37
+    400232: Doric_Column_slab_mesh 4
+    400234: Doric_Column_slab_mesh 5
+    400236: Doric_Column_slab_mesh 6
+    400238: Doric_Column_slab_mesh 7
+    400240: Doric_Column_slab_mesh 8
+    400242: Doric_Column_slab_mesh 9
+    400244: Doric_Temple_Base
+    400246: Doric_Temple_Build
+    400248: Doric_Temple_Roof
+    400250: Doric_Temple_Triglyphs
+    400252: Doric_Temple_Walls
+    400254: Extension_mesh
+    400256: //RootNode
+    400258: Fire_Holder_Ground_Color_ID
+    400260: Fire_Holder_Ground_Color_ID1
+    400262: Fire_Holder_Ground_Color_ID10
+    400264: Fire_Holder_Ground_Color_ID11
+    400266: Fire_Holder_Ground_Color_ID12
+    400268: Fire_Holder_Ground_Color_ID13
+    400270: Fire_Holder_Ground_Color_ID2
+    400272: Fire_Holder_Ground_Color_ID3
+    400274: Fire_Holder_Ground_Color_ID4
+    400276: Fire_Holder_Ground_Color_ID5
+    400278: Fire_Holder_Ground_Color_ID6
+    400280: Fire_Holder_Ground_Color_ID7
+    400282: Fire_Holder_Ground_Color_ID8
+    400284: Fire_Holder_Ground_Color_ID9
+    400286: Fire_holder_stand
+    400288: Fire_Holder_Stand_Color_ID
+    400290: Fire_Holder_Stand_Color_ID1
+    400292: Fire_Holder_Stand_Color_ID2
+    400294: Fire_Holder_Stand_Color_ID3
+    400296: Fire_Holder_Stand_Color_ID4
+    400298: Fire_Holder_Stand_Color_ID5
+    400300: Fire_Holder_Stand_Color_ID6
+    400302: Fire_Holder_Stand_Color_ID7
+    400304: Fire_Holder_Stand_Color_ID8
+    400306: Fire_Holder_Stand_Color_ID9
+    400308: Fireholders
+    400310: Greek_Helmet_Color_ID1
+    400312: Greek_Helmet_Color_ID2
+    400314: Greek_Helmet_Color_ID3
+    400316: Greek_Shield_colorI_D_5
+    400318: Greek_Shield_colorI_D_6
+    400320: group1
+    400322: Helmets
+    400324: Hoplite_Sword_Color_ID
+    400326: Hoplite_Sword_Color_ID1
+    400328: Hoplite_Sword_Color_ID2
+    400330: Hoplite_Sword_Color_ID3
+    400332: imagePlane1
+    400334: imagePlane2
+    400336: imagePlane3
+    400338: left
+    400340: mid_Roof
+    400342: Objects
+    400344: Roof_Base
+    400346: Roof_Ornament
+    400348: Roof_Ring_1
+    400350: Roof_Ring_2
+    400352: Roof_Ring_3
+    400354: Roof_Ring_4
+    400356: Roundtable
+    400358: Shields
+    400360: Spear_Color_ID
+    400362: Spear_Color_ID1
+    400364: Spears
+    400366: Stairs
+    400368: Stairs_Back_mesh
+    400370: Stairs_front_high_mesh
+    400372: Stairs_front_low_mesh
+    400374: Stairs_Left_mesh
+    400376: Stairs_Right_mesh
+    400378: Stairs_Sides
+    400380: Swords
+    400382: Temple_Base_mesh
+    400384: Torch_Color_ID
+    400386: Torch_Color_ID1
+    400388: Torch_Color_ID2
+    400390: Torch_Color_ID3
+    400392: Torches
+    400394: turnTableCamera1
+    400396: Upper_Base_Mesh
+    400398: Vase_1
+    400400: Vase_1_Color_ID
+    400402: Vase_1_Color_ID1
+    400404: Vase_1_Color_ID2
+    400406: Vase_2
+    400408: Vase_2_Color_ID
+    400410: Vase_2_Color_ID1
+    2000000: back
+    2000002: left
+    2000004: turnTableCamera1
+    2100000: lambert1
+    2100002: Fire_Holder_Ground_Metal_mat
+    2100004: Vase_1_mat
+    2100006: Fire_Holder_Stand_rivets_Metal_mat1
+    2100008: Fire_Holder_Stand_Rings_Metal_mat1
+    2100010: Fire_Holder_Stand_Legs_Metal_mat1
+    2100012: Fire_Holder_Stand_Body_Metal_mat1
+    2100014: Fire_Holder_Stand_rivets_Metal_mat
+    2100016: Fire_Holder_Stand_Rings_Metal_mat
+    2100018: Fire_Holder_Stand_Legs_Metal_mat
+    2100020: Fire_Holder_Stand_Body_Metal_mat
+    2100022: Torch_Wood_mat
+    2100024: lambert3
+    2100026: Torch_Metal_mat
+    2100028: Torch_Holder_Metal_mat
+    2100030: Torch_Screws_Metal_mat
+    2100032: Spear_Head_Metal_mat
+    2100034: Spear_Shaft_Wood_mat
+    2100036: Spear_Sauroter_Metal_mat
+    2100038: Greek_Helmet_Kamm_bronze_mat
+    2100040: Greek_Helmet_Decoration_bronze_mat
+    2100042: Greek_Helmet_body_bronze_mat
+    2100044: Hoplite_Sword_Knob_Steel_mat1
+    2100046: Hoplite_Sword_Hilt_Steel_mat1
+    2100048: Hoplite_Sword_Hilt_Leather_mat1
+    2100050: Hoplite_Sword_Blade_Steel_mat1
+    2100052: Body_Leather_mat1
+    2100054: Ornament_Leather_1_mat1
+    2100056: Ornament_Leather_2_mat1
+    2100058: Ornament_Leather_3_mat1
+    2100060: Sphere_big_Copper_mat1
+    2100062: Spheres_Copper_mat1
+    2100064: Bolts_Steel_mat1
+    2100066: Handles_Leather_mat1
+    2100068: Outline_Wood_mat1
+    2100070: Vase_Body_mat
+    2100072: Vase_Handles_mat
+    2100074: Doric_Column_slab_mat2
+    2100076: Doric_Column_Body_mat2
+    2100078: lambert2
+    2300000: Doric_Column_body_mesh
+    2300002: Doric_Column_body_mesh 1
+    2300004: Doric_Column_body_mesh 10
+    2300006: Doric_Column_body_mesh 11
+    2300008: Doric_Column_body_mesh 12
+    2300010: Doric_Column_body_mesh 13
+    2300012: Doric_Column_body_mesh 14
+    2300014: Doric_Column_body_mesh 15
+    2300016: Doric_Column_body_mesh 16
+    2300018: Doric_Column_body_mesh 17
+    2300020: Doric_Column_body_mesh 18
+    2300022: Doric_Column_body_mesh 19
+    2300024: Doric_Column_body_mesh 2
+    2300026: Doric_Column_body_mesh 20
+    2300028: Doric_Column_body_mesh 21
+    2300030: Doric_Column_body_mesh 22
+    2300032: Doric_Column_body_mesh 23
+    2300034: Doric_Column_body_mesh 24
+    2300036: Doric_Column_body_mesh 25
+    2300038: Doric_Column_body_mesh 26
+    2300040: Doric_Column_body_mesh 27
+    2300042: Doric_Column_body_mesh 28
+    2300044: Doric_Column_body_mesh 29
+    2300046: Doric_Column_body_mesh 3
+    2300048: Doric_Column_body_mesh 30
+    2300050: Doric_Column_body_mesh 31
+    2300052: Doric_Column_body_mesh 32
+    2300054: Doric_Column_body_mesh 33
+    2300056: Doric_Column_body_mesh 34
+    2300058: Doric_Column_body_mesh 35
+    2300060: Doric_Column_body_mesh 36
+    2300062: Doric_Column_body_mesh 37
+    2300064: Doric_Column_body_mesh 4
+    2300066: Doric_Column_body_mesh 5
+    2300068: Doric_Column_body_mesh 6
+    2300070: Doric_Column_body_mesh 7
+    2300072: Doric_Column_body_mesh 8
+    2300074: Doric_Column_body_mesh 9
+    2300076: Doric_Column_slab_mesh
+    2300078: Doric_Column_slab_mesh 1
+    2300080: Doric_Column_slab_mesh 10
+    2300082: Doric_Column_slab_mesh 11
+    2300084: Doric_Column_slab_mesh 12
+    2300086: Doric_Column_slab_mesh 13
+    2300088: Doric_Column_slab_mesh 14
+    2300090: Doric_Column_slab_mesh 15
+    2300092: Doric_Column_slab_mesh 16
+    2300094: Doric_Column_slab_mesh 17
+    2300096: Doric_Column_slab_mesh 18
+    2300098: Doric_Column_slab_mesh 19
+    2300100: Doric_Column_slab_mesh 2
+    2300102: Doric_Column_slab_mesh 20
+    2300104: Doric_Column_slab_mesh 21
+    2300106: Doric_Column_slab_mesh 22
+    2300108: Doric_Column_slab_mesh 23
+    2300110: Doric_Column_slab_mesh 24
+    2300112: Doric_Column_slab_mesh 25
+    2300114: Doric_Column_slab_mesh 26
+    2300116: Doric_Column_slab_mesh 27
+    2300118: Doric_Column_slab_mesh 28
+    2300120: Doric_Column_slab_mesh 29
+    2300122: Doric_Column_slab_mesh 3
+    2300124: Doric_Column_slab_mesh 30
+    2300126: Doric_Column_slab_mesh 31
+    2300128: Doric_Column_slab_mesh 32
+    2300130: Doric_Column_slab_mesh 33
+    2300132: Doric_Column_slab_mesh 34
+    2300134: Doric_Column_slab_mesh 35
+    2300136: Doric_Column_slab_mesh 36
+    2300138: Doric_Column_slab_mesh 37
+    2300140: Doric_Column_slab_mesh 4
+    2300142: Doric_Column_slab_mesh 5
+    2300144: Doric_Column_slab_mesh 6
+    2300146: Doric_Column_slab_mesh 7
+    2300148: Doric_Column_slab_mesh 8
+    2300150: Doric_Column_slab_mesh 9
+    2300152: Doric_Temple_Triglyphs
+    2300154: Doric_Temple_Walls
+    2300156: Extension_mesh
+    2300158: Fire_Holder_Ground_Color_ID
+    2300160: Fire_Holder_Ground_Color_ID1
+    2300162: Fire_Holder_Ground_Color_ID10
+    2300164: Fire_Holder_Ground_Color_ID11
+    2300166: Fire_Holder_Ground_Color_ID12
+    2300168: Fire_Holder_Ground_Color_ID13
+    2300170: Fire_Holder_Ground_Color_ID2
+    2300172: Fire_Holder_Ground_Color_ID3
+    2300174: Fire_Holder_Ground_Color_ID4
+    2300176: Fire_Holder_Ground_Color_ID5
+    2300178: Fire_Holder_Ground_Color_ID6
+    2300180: Fire_Holder_Ground_Color_ID7
+    2300182: Fire_Holder_Ground_Color_ID8
+    2300184: Fire_Holder_Ground_Color_ID9
+    2300186: Fire_Holder_Stand_Color_ID
+    2300188: Fire_Holder_Stand_Color_ID1
+    2300190: Fire_Holder_Stand_Color_ID2
+    2300192: Fire_Holder_Stand_Color_ID3
+    2300194: Fire_Holder_Stand_Color_ID4
+    2300196: Fire_Holder_Stand_Color_ID5
+    2300198: Fire_Holder_Stand_Color_ID6
+    2300200: Fire_Holder_Stand_Color_ID7
+    2300202: Fire_Holder_Stand_Color_ID8
+    2300204: Fire_Holder_Stand_Color_ID9
+    2300206: Greek_Helmet_Color_ID1
+    2300208: Greek_Helmet_Color_ID2
+    2300210: Greek_Helmet_Color_ID3
+    2300212: Greek_Shield_colorI_D_5
+    2300214: Greek_Shield_colorI_D_6
+    2300216: Hoplite_Sword_Color_ID
+    2300218: Hoplite_Sword_Color_ID1
+    2300220: Hoplite_Sword_Color_ID2
+    2300222: Hoplite_Sword_Color_ID3
+    2300224: mid_Roof
+    2300226: Roof_Base
+    2300228: Roof_Ornament
+    2300230: Roof_Ring_1
+    2300232: Roof_Ring_2
+    2300234: Roof_Ring_3
+    2300236: Roof_Ring_4
+    2300238: Roundtable
+    2300240: Spear_Color_ID
+    2300242: Spear_Color_ID1
+    2300244: Stairs_Back_mesh
+    2300246: Stairs_front_high_mesh
+    2300248: Stairs_front_low_mesh
+    2300250: Stairs_Left_mesh
+    2300252: Stairs_Right_mesh
+    2300254: Temple_Base_mesh
+    2300256: Torch_Color_ID
+    2300258: Torch_Color_ID1
+    2300260: Torch_Color_ID2
+    2300262: Torch_Color_ID3
+    2300264: Upper_Base_Mesh
+    2300266: Vase_1_Color_ID
+    2300268: Vase_1_Color_ID1
+    2300270: Vase_1_Color_ID2
+    2300272: Vase_2_Color_ID
+    2300274: Vase_2_Color_ID1
+    3300000: Doric_Column_body_mesh
+    3300002: Doric_Column_body_mesh 1
+    3300004: Doric_Column_body_mesh 10
+    3300006: Doric_Column_body_mesh 11
+    3300008: Doric_Column_body_mesh 12
+    3300010: Doric_Column_body_mesh 13
+    3300012: Doric_Column_body_mesh 14
+    3300014: Doric_Column_body_mesh 15
+    3300016: Doric_Column_body_mesh 16
+    3300018: Doric_Column_body_mesh 17
+    3300020: Doric_Column_body_mesh 18
+    3300022: Doric_Column_body_mesh 19
+    3300024: Doric_Column_body_mesh 2
+    3300026: Doric_Column_body_mesh 20
+    3300028: Doric_Column_body_mesh 21
+    3300030: Doric_Column_body_mesh 22
+    3300032: Doric_Column_body_mesh 23
+    3300034: Doric_Column_body_mesh 24
+    3300036: Doric_Column_body_mesh 25
+    3300038: Doric_Column_body_mesh 26
+    3300040: Doric_Column_body_mesh 27
+    3300042: Doric_Column_body_mesh 28
+    3300044: Doric_Column_body_mesh 29
+    3300046: Doric_Column_body_mesh 3
+    3300048: Doric_Column_body_mesh 30
+    3300050: Doric_Column_body_mesh 31
+    3300052: Doric_Column_body_mesh 32
+    3300054: Doric_Column_body_mesh 33
+    3300056: Doric_Column_body_mesh 34
+    3300058: Doric_Column_body_mesh 35
+    3300060: Doric_Column_body_mesh 36
+    3300062: Doric_Column_body_mesh 37
+    3300064: Doric_Column_body_mesh 4
+    3300066: Doric_Column_body_mesh 5
+    3300068: Doric_Column_body_mesh 6
+    3300070: Doric_Column_body_mesh 7
+    3300072: Doric_Column_body_mesh 8
+    3300074: Doric_Column_body_mesh 9
+    3300076: Doric_Column_slab_mesh
+    3300078: Doric_Column_slab_mesh 1
+    3300080: Doric_Column_slab_mesh 10
+    3300082: Doric_Column_slab_mesh 11
+    3300084: Doric_Column_slab_mesh 12
+    3300086: Doric_Column_slab_mesh 13
+    3300088: Doric_Column_slab_mesh 14
+    3300090: Doric_Column_slab_mesh 15
+    3300092: Doric_Column_slab_mesh 16
+    3300094: Doric_Column_slab_mesh 17
+    3300096: Doric_Column_slab_mesh 18
+    3300098: Doric_Column_slab_mesh 19
+    3300100: Doric_Column_slab_mesh 2
+    3300102: Doric_Column_slab_mesh 20
+    3300104: Doric_Column_slab_mesh 21
+    3300106: Doric_Column_slab_mesh 22
+    3300108: Doric_Column_slab_mesh 23
+    3300110: Doric_Column_slab_mesh 24
+    3300112: Doric_Column_slab_mesh 25
+    3300114: Doric_Column_slab_mesh 26
+    3300116: Doric_Column_slab_mesh 27
+    3300118: Doric_Column_slab_mesh 28
+    3300120: Doric_Column_slab_mesh 29
+    3300122: Doric_Column_slab_mesh 3
+    3300124: Doric_Column_slab_mesh 30
+    3300126: Doric_Column_slab_mesh 31
+    3300128: Doric_Column_slab_mesh 32
+    3300130: Doric_Column_slab_mesh 33
+    3300132: Doric_Column_slab_mesh 34
+    3300134: Doric_Column_slab_mesh 35
+    3300136: Doric_Column_slab_mesh 36
+    3300138: Doric_Column_slab_mesh 37
+    3300140: Doric_Column_slab_mesh 4
+    3300142: Doric_Column_slab_mesh 5
+    3300144: Doric_Column_slab_mesh 6
+    3300146: Doric_Column_slab_mesh 7
+    3300148: Doric_Column_slab_mesh 8
+    3300150: Doric_Column_slab_mesh 9
+    3300152: Doric_Temple_Triglyphs
+    3300154: Doric_Temple_Walls
+    3300156: Extension_mesh
+    3300158: Fire_Holder_Ground_Color_ID
+    3300160: Fire_Holder_Ground_Color_ID1
+    3300162: Fire_Holder_Ground_Color_ID10
+    3300164: Fire_Holder_Ground_Color_ID11
+    3300166: Fire_Holder_Ground_Color_ID12
+    3300168: Fire_Holder_Ground_Color_ID13
+    3300170: Fire_Holder_Ground_Color_ID2
+    3300172: Fire_Holder_Ground_Color_ID3
+    3300174: Fire_Holder_Ground_Color_ID4
+    3300176: Fire_Holder_Ground_Color_ID5
+    3300178: Fire_Holder_Ground_Color_ID6
+    3300180: Fire_Holder_Ground_Color_ID7
+    3300182: Fire_Holder_Ground_Color_ID8
+    3300184: Fire_Holder_Ground_Color_ID9
+    3300186: Fire_Holder_Stand_Color_ID
+    3300188: Fire_Holder_Stand_Color_ID1
+    3300190: Fire_Holder_Stand_Color_ID2
+    3300192: Fire_Holder_Stand_Color_ID3
+    3300194: Fire_Holder_Stand_Color_ID4
+    3300196: Fire_Holder_Stand_Color_ID5
+    3300198: Fire_Holder_Stand_Color_ID6
+    3300200: Fire_Holder_Stand_Color_ID7
+    3300202: Fire_Holder_Stand_Color_ID8
+    3300204: Fire_Holder_Stand_Color_ID9
+    3300206: Greek_Helmet_Color_ID1
+    3300208: Greek_Helmet_Color_ID2
+    3300210: Greek_Helmet_Color_ID3
+    3300212: Greek_Shield_colorI_D_5
+    3300214: Greek_Shield_colorI_D_6
+    3300216: Hoplite_Sword_Color_ID
+    3300218: Hoplite_Sword_Color_ID1
+    3300220: Hoplite_Sword_Color_ID2
+    3300222: Hoplite_Sword_Color_ID3
+    3300224: mid_Roof
+    3300226: Roof_Base
+    3300228: Roof_Ornament
+    3300230: Roof_Ring_1
+    3300232: Roof_Ring_2
+    3300234: Roof_Ring_3
+    3300236: Roof_Ring_4
+    3300238: Roundtable
+    3300240: Spear_Color_ID
+    3300242: Spear_Color_ID1
+    3300244: Stairs_Back_mesh
+    3300246: Stairs_front_high_mesh
+    3300248: Stairs_front_low_mesh
+    3300250: Stairs_Left_mesh
+    3300252: Stairs_Right_mesh
+    3300254: Temple_Base_mesh
+    3300256: Torch_Color_ID
+    3300258: Torch_Color_ID1
+    3300260: Torch_Color_ID2
+    3300262: Torch_Color_ID3
+    3300264: Upper_Base_Mesh
+    3300266: Vase_1_Color_ID
+    3300268: Vase_1_Color_ID1
+    3300270: Vase_1_Color_ID2
+    3300272: Vase_2_Color_ID
+    3300274: Vase_2_Color_ID1
+    4300000: Roundtable
+    4300002: Doric_Temple_Walls
+    4300004: Fire_Holder_Ground_Color_ID
+    4300006: Fire_Holder_Ground_Color_ID1
+    4300008: Fire_Holder_Ground_Color_ID2
+    4300010: Fire_Holder_Ground_Color_ID3
+    4300012: Fire_Holder_Ground_Color_ID4
+    4300014: Fire_Holder_Ground_Color_ID5
+    4300016: Fire_Holder_Ground_Color_ID6
+    4300018: Fire_Holder_Ground_Color_ID7
+    4300020: Fire_Holder_Ground_Color_ID8
+    4300022: Fire_Holder_Ground_Color_ID9
+    4300024: Fire_Holder_Ground_Color_ID10
+    4300026: Fire_Holder_Ground_Color_ID11
+    4300028: Fire_Holder_Ground_Color_ID12
+    4300030: Fire_Holder_Ground_Color_ID13
+    4300032: Vase_1_Color_ID
+    4300034: Vase_1_Color_ID1
+    4300036: Vase_1_Color_ID2
+    4300038: Fire_Holder_Stand_Color_ID9
+    4300040: Fire_Holder_Stand_Color_ID8
+    4300042: Fire_Holder_Stand_Color_ID7
+    4300044: Fire_Holder_Stand_Color_ID6
+    4300046: Fire_Holder_Stand_Color_ID5
+    4300048: Fire_Holder_Stand_Color_ID
+    4300050: Fire_Holder_Stand_Color_ID3
+    4300052: Fire_Holder_Stand_Color_ID2
+    4300054: Fire_Holder_Stand_Color_ID1
+    4300056: Fire_Holder_Stand_Color_ID4
+    4300058: Torch_Color_ID3
+    4300060: Torch_Color_ID2
+    4300062: Torch_Color_ID1
+    4300064: Torch_Color_ID
+    4300066: Spear_Color_ID
+    4300068: Spear_Color_ID1
+    4300070: Greek_Helmet_Color_ID3
+    4300072: Greek_Helmet_Color_ID2
+    4300074: Greek_Helmet_Color_ID1
+    4300076: Hoplite_Sword_Color_ID
+    4300078: Hoplite_Sword_Color_ID1
+    4300080: Hoplite_Sword_Color_ID2
+    4300082: Hoplite_Sword_Color_ID3
+    4300084: Greek_Shield_colorI_D_5
+    4300086: Greek_Shield_colorI_D_6
+    4300088: Vase_2_Color_ID1
+    4300090: Vase_2_Color_ID
+    4300092: Extension_mesh
+    4300094: Stairs_front_high_mesh
+    4300096: Stairs_front_low_mesh
+    4300098: Stairs_Left_mesh
+    4300100: Stairs_Right_mesh
+    4300102: Stairs_Back_mesh
+    4300104: Doric_Column_slab_mesh
+    4300106: Doric_Column_body_mesh
+    4300108: Doric_Column_slab_mesh
+    4300110: Doric_Column_body_mesh
+    4300112: Doric_Column_slab_mesh
+    4300114: Doric_Column_body_mesh
+    4300116: Doric_Column_slab_mesh
+    4300118: Doric_Column_body_mesh
+    4300120: Doric_Column_slab_mesh
+    4300122: Doric_Column_body_mesh
+    4300124: Doric_Column_slab_mesh
+    4300126: Doric_Column_body_mesh
+    4300128: Doric_Column_slab_mesh
+    4300130: Doric_Column_body_mesh
+    4300132: Doric_Column_slab_mesh
+    4300134: Doric_Column_body_mesh
+    4300136: Doric_Column_slab_mesh
+    4300138: Doric_Column_body_mesh
+    4300140: Doric_Column_slab_mesh
+    4300142: Doric_Column_body_mesh
+    4300144: Doric_Column_slab_mesh
+    4300146: Doric_Column_body_mesh
+    4300148: Doric_Column_slab_mesh
+    4300150: Doric_Column_body_mesh
+    4300152: Doric_Column_slab_mesh
+    4300154: Doric_Column_body_mesh
+    4300156: Doric_Column_slab_mesh
+    4300158: Doric_Column_body_mesh
+    4300160: Doric_Column_slab_mesh
+    4300162: Doric_Column_body_mesh
+    4300164: Doric_Column_slab_mesh
+    4300166: Doric_Column_body_mesh
+    4300168: Doric_Column_slab_mesh
+    4300170: Doric_Column_body_mesh
+    4300172: Doric_Column_slab_mesh
+    4300174: Doric_Column_body_mesh
+    4300176: Doric_Column_slab_mesh
+    4300178: Doric_Column_body_mesh
+    4300180: Doric_Column_slab_mesh
+    4300182: Doric_Column_body_mesh
+    4300184: Doric_Column_slab_mesh
+    4300186: Doric_Column_body_mesh
+    4300188: Doric_Column_slab_mesh
+    4300190: Doric_Column_body_mesh
+    4300192: Doric_Column_slab_mesh
+    4300194: Doric_Column_body_mesh
+    4300196: Doric_Column_body_mesh
+    4300198: Doric_Column_slab_mesh
+    4300200: Doric_Column_body_mesh
+    4300202: Doric_Column_slab_mesh
+    4300204: Doric_Column_body_mesh
+    4300206: Doric_Column_slab_mesh
+    4300208: Doric_Column_body_mesh
+    4300210: Doric_Column_slab_mesh
+    4300212: Doric_Column_body_mesh
+    4300214: Doric_Column_slab_mesh
+    4300216: Doric_Column_slab_mesh
+    4300218: Doric_Column_body_mesh
+    4300220: Doric_Column_body_mesh
+    4300222: Doric_Column_slab_mesh
+    4300224: Doric_Column_body_mesh
+    4300226: Doric_Column_slab_mesh
+    4300228: Doric_Column_body_mesh
+    4300230: Doric_Column_slab_mesh
+    4300232: Doric_Column_body_mesh
+    4300234: Doric_Column_slab_mesh
+    4300236: Doric_Column_body_mesh
+    4300238: Doric_Column_slab_mesh
+    4300240: Doric_Column_body_mesh
+    4300242: Doric_Column_slab_mesh
+    4300244: Doric_Column_body_mesh
+    4300246: Doric_Column_slab_mesh
+    4300248: Doric_Column_body_mesh
+    4300250: Doric_Column_slab_mesh
+    4300252: Doric_Column_body_mesh
+    4300254: Doric_Column_slab_mesh
+    4300256: Temple_Base_mesh
+    4300258: Upper_Base_Mesh
+    4300260: Roof_Base
+    4300262: Doric_Temple_Triglyphs
+    4300264: Roof_Ornament
+    4300266: Roof_Ring_4
+    4300268: Roof_Ring_3
+    4300270: Roof_Ring_2
+    4300272: Roof_Ring_1
+    4300274: mid_Roof
+    7400000: Take 001
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Leather_mat1
+    second: {fileID: 2100000, guid: 0137c4bf3725e9343a1d7dffd2488bdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolts_Steel_mat1
+    second: {fileID: 2100000, guid: fdc0cf0cce6f5b445b9e357ae83227ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doric_Column_Body_mat2
+    second: {fileID: 2100000, guid: d2eadd35c92e2c4409ce4df5f2204f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doric_Column_slab_mat2
+    second: {fileID: 2100000, guid: 913983af6e36ed54a89509b75d84a4e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Ground_Metal_mat
+    second: {fileID: 2100000, guid: 87fabbe0a0d82c440b4e18bcbe84bb9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Body_Metal_mat
+    second: {fileID: 2100000, guid: 18e1ffd71d5bebb44a84c1de5d27869c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Body_Metal_mat1
+    second: {fileID: 2100000, guid: bf3b46cd829df444cb4ad2c790e0fed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Legs_Metal_mat
+    second: {fileID: 2100000, guid: 15ab8c1405e0f3f448810faed7450fcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Legs_Metal_mat1
+    second: {fileID: 2100000, guid: d7dfa60cf9df95440b1de7c8a27a6d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Rings_Metal_mat
+    second: {fileID: 2100000, guid: 292d806e92563924b869b545e43a53b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_Rings_Metal_mat1
+    second: {fileID: 2100000, guid: 66f0e195b24e38042ad7dfd4f9608aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_rivets_Metal_mat
+    second: {fileID: 2100000, guid: feebae15e55ca9e4fbb82a4f04097f96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Holder_Stand_rivets_Metal_mat1
+    second: {fileID: 2100000, guid: cc66fcbdab473904dad2cf03242b848b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greek_Helmet_Decoration_bronze_mat
+    second: {fileID: 2100000, guid: 45cba360f434c254dbec8d77be25755a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greek_Helmet_Kamm_bronze_mat
+    second: {fileID: 2100000, guid: f2665f888346aac40bd043d88dcc7d95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greek_Helmet_body_bronze_mat
+    second: {fileID: 2100000, guid: e9129c5f7ad740e40926207226402e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handles_Leather_mat1
+    second: {fileID: 2100000, guid: 66455f545ca094547a465009a88925c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoplite_Sword_Blade_Steel_mat1
+    second: {fileID: 2100000, guid: 6c1212086c7248c4ebe7139acb81410c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoplite_Sword_Hilt_Leather_mat1
+    second: {fileID: 2100000, guid: 31cb229b5bd157a4ab2bd11834e0ea93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoplite_Sword_Hilt_Steel_mat1
+    second: {fileID: 2100000, guid: f4a21c6917a80cd4bb8d661d7e59e02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoplite_Sword_Knob_Steel_mat1
+    second: {fileID: 2100000, guid: 59d637851600f1b4aacbe1c603cabd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ornament_Leather_1_mat1
+    second: {fileID: 2100000, guid: ea142471b6688534a8f2a2085f32a351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ornament_Leather_2_mat1
+    second: {fileID: 2100000, guid: db6827de492e2d34eaf61687ac61bb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ornament_Leather_3_mat1
+    second: {fileID: 2100000, guid: 7c2e8e7e134520f4a83fd83669453354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline_Wood_mat1
+    second: {fileID: 2100000, guid: 4c9cc596730410b46a7518a03087c86e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spear_Head_Metal_mat
+    second: {fileID: 2100000, guid: bfa6cb8aa2bb60b4f942325208ffccf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spear_Sauroter_Metal_mat
+    second: {fileID: 2100000, guid: 45dbcfee2d2a2d548ae1dd1366b91844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spear_Shaft_Wood_mat
+    second: {fileID: 2100000, guid: b15b4dc5718a5a742b95a0359791f0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere_big_Copper_mat1
+    second: {fileID: 2100000, guid: 4ed9cfd91e277134cb0df1191c27a8f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spheres_Copper_mat1
+    second: {fileID: 2100000, guid: aa682fddafbdfae4e9e036dc893f8337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torch_Holder_Metal_mat
+    second: {fileID: 2100000, guid: db7761f708539bf47a8aafdf698859d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torch_Metal_mat
+    second: {fileID: 2100000, guid: 28fbb5697fa8ce84bbd9d71ed0a84558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torch_Screws_Metal_mat
+    second: {fileID: 2100000, guid: 7098a002915297e42a0d1a33a751e6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torch_Wood_mat
+    second: {fileID: 2100000, guid: d208576df4b362748b39eea167637d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vase_1_mat
+    second: {fileID: 2100000, guid: c0ab5b6bb373e0f429b80504c098e5ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vase_Body_mat
+    second: {fileID: 2100000, guid: 9b5da00059be1e44ca1113964b207546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vase_Handles_mat
+    second: {fileID: 2100000, guid: 71b393798acf6cf47aa067b3b78d2df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 25b4dfa6adb66d24e983ca26dcade17b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: a0c4c04011474084db8aeda2f2596d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: f6354477cf1d9164a8297a8af7e1f116, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
