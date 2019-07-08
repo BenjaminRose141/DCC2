@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class UI : MonoBehaviour
     [SerializeField] GameObject rain = null;
     [SerializeField] GameObject snow = null;
     [SerializeField] GameObject clear = null;
+    [SerializeField] Animator animArachne;
+    [SerializeField] GameObject controls;
+    bool controlsVisible;
 
 
 
@@ -21,10 +25,9 @@ public class UI : MonoBehaviour
         uiVisible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
             ToggleUI();
         }
@@ -42,6 +45,17 @@ public class UI : MonoBehaviour
         }
         
         uiVisible = !uiVisible;
+    }
+
+    public void Controls()
+    {
+        controls.SetActive(controlsVisible);
+        controlsVisible = !controlsVisible;
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     //Change Weather
@@ -97,22 +111,27 @@ public class UI : MonoBehaviour
     //Animations
     public void PlayArachneWalk()
     {
-
+        animArachne.Play("Walk");
     }
 
     public void PlayArachneIdle()
     {
-        
+        animArachne.Play("Idle");
     }
 
     public void PlayArachneRun()
     {
-        
+        animArachne.Play("Run");
+    }
+
+    public void PlayArachneAttack()
+    {
+        animArachne.Play("Attack");
     }
 
     public void PlayMonsterWalk()
     {
-        
+
     }
 
     public void PlayMonsterIdle()
@@ -127,6 +146,6 @@ public class UI : MonoBehaviour
 
     public void PlayCustom()
     {
-        
+        animArachne.Play("Channel");
     }
 }
