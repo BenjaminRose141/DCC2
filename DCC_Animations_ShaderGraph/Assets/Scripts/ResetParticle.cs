@@ -10,8 +10,9 @@ public class ResetParticle : MonoBehaviour
    [SerializeField] GameObject particle2;
 
 
-   void Awake()
+   void OnEnable()
    {
+       Debug.Log("OnEnable called");
        particle1.gameObject.transform.position = positionStart1;
        particle2.gameObject.transform.position = positionStart2;
    }

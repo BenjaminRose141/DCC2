@@ -22,6 +22,10 @@ public class UI : MonoBehaviour
     [SerializeField] float timerStart;
     float timerCurrent;
     bool timing = false;
+    [SerializeField] GameObject spell1;
+    [SerializeField] GameObject spell2;
+    GameObject clone1 = null;
+    GameObject clone2 = null;
 
 
 
@@ -41,20 +45,21 @@ public class UI : MonoBehaviour
         if(timing)
         {   
             spells.SetActive(true);
-            Debug.Log("Timer: " + timerCurrent);
+            //Debug.Log("Timer: " + timerCurrent);
             timerCurrent = timerCurrent - Time.deltaTime;
-            Debug.Log("Timer: " + timerCurrent);
+            //Debug.Log("Timer: " + timerCurrent);
 
             if(timerCurrent <= 0)
             {
                 animMonster.Play("Custom");
             }
             
-            if (timerCurrent <= -0.52)
+            if (timerCurrent <= -1)
             {
-                spells.SetActive(false);
                 timing = false;
                 timerCurrent = timerStart;
+                Destroy(clone1);
+                Destroy(clone2);
             }
         }
     }
@@ -173,6 +178,8 @@ public class UI : MonoBehaviour
     public void PlayCustom()
     {
         animArachne.Play("Channel");
+        clone1 = Instantiate(spell1);
+        clone2 = Instantiate(spell2);
         animMonster.Play("Idle");
         timing = true;
 
