@@ -17,6 +17,7 @@ public class UI : MonoBehaviour
     [SerializeField] Animator animArachne;
     [SerializeField] Animator animMonster;
     [SerializeField] GameObject controls;
+    [SerializeField] GameObject spells;
     bool controlsVisible;
     [SerializeField] float timerStart;
     float timerCurrent;
@@ -39,6 +40,7 @@ public class UI : MonoBehaviour
 
         if(timing)
         {   
+            spells.SetActive(true);
             Debug.Log("Timer: " + timerCurrent);
             timerCurrent = timerCurrent - Time.deltaTime;
             Debug.Log("Timer: " + timerCurrent);
@@ -46,6 +48,11 @@ public class UI : MonoBehaviour
             if(timerCurrent <= 0)
             {
                 animMonster.Play("Custom");
+            }
+            
+            if (timerCurrent <= -0.52)
+            {
+                spells.SetActive(false);
                 timing = false;
                 timerCurrent = timerStart;
             }
