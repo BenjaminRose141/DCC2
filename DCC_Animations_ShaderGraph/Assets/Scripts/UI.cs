@@ -15,14 +15,19 @@ public class UI : MonoBehaviour
     [SerializeField] GameObject snow = null;
     [SerializeField] GameObject clear = null;
     [SerializeField] Animator animArachne;
+    [SerializeField] Animator animMonster;
     [SerializeField] GameObject controls;
     bool controlsVisible;
+    [SerializeField] float timerStart;
+    float timerCurrent;
+    bool timing = false;
 
 
 
     void Start()
     {
         uiVisible = false;
+        timerCurrent = timerStart;
     }
 
     void Update()
@@ -30,6 +35,20 @@ public class UI : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Tab))
         {
             ToggleUI();
+        }
+
+        if(timing)
+        {   
+            Debug.Log("Timer: " + timerCurrent);
+            timerCurrent = timerCurrent - Time.deltaTime;
+            Debug.Log("Timer: " + timerCurrent);
+
+            if(timerCurrent <= 0)
+            {
+                animMonster.Play("Custom");
+                timing = false;
+                timerCurrent = timerStart;
+            }
         }
     }
 
@@ -131,21 +150,24 @@ public class UI : MonoBehaviour
 
     public void PlayMonsterWalk()
     {
-
+        animMonster.Play("Walk");
     }
 
     public void PlayMonsterIdle()
     {
-        
+        animMonster.Play("Idle");
     }
 
     public void PlayMonsterRun()
     {
-        
+        animMonster.Play("Run");
     }
 
     public void PlayCustom()
     {
         animArachne.Play("Channel");
+        animMonster.Play("Idle");
+        timing = true;
+
     }
 }
